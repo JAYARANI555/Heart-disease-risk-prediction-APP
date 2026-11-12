@@ -143,7 +143,7 @@ st.markdown(
 # Load model artifacts
 # ----------------------------
 try:
-    model = joblib.load("knn_heart_model.pkl")
+    model = joblib.load("KNN_heart_model.pkl")
     scaler = joblib.load("heart_scaler.pkl")
     expected_columns = joblib.load("heart_columns.pkl")
 except FileNotFoundError as e:
